@@ -1,7 +1,7 @@
-const arr = [1,2,3,4,5,6];
+let myArray = [1,2,3,4,5,6];
 
-arr.sort(function(a, b) {
-  return a - b; 
-});
-arr.reverse(); 
-console.log(arr);
+// Sort the array in descending order
+myArray.sort((a, b) => b - a);
+
+// Display the sorted array
+console.log(myArray);
